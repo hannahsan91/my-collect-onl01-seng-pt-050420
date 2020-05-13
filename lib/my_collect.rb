@@ -6,5 +6,6 @@ def my_collect(array)
     new_collection << yield(array[i])
     i += 1
   end
+  binding,pry
   new_collection
 end
