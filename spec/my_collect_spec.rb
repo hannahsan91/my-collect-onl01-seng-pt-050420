@@ -42,7 +42,6 @@ describe "my_collect" do
     end).to eq(["Tim", "Tom", "Sophie", "Antoin"])
   end
 
-> ["Tim", "Tom", "Jim"]
   it 'does not modify the original collection' do
     my_collect(students) do |student|
       student.split(" ").first
