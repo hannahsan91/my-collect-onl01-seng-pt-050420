@@ -49,5 +49,3 @@ describe "my_collect" do
     expect(students).to eq(['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller'])
   end
 end
-
-> ["RUBY", "JAVASCRIPT", "PYTHON", "OBJECTIVE-C"]
